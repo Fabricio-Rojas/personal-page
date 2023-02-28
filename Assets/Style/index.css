@@ -1,0 +1,16 @@
+@import url(./reset.css);
+
+/*-------------------------- Container Rules --------------------------*/
+
+.container {
+    width: min(100% - 30px, 330px);
+    margin-inline: auto;
+}
+
+/*-------------------------- Body BG --------------------------*/
+
+body {
+    background-color: #1a1d28;
+    height: auto;
+}
+
