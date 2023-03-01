@@ -7,10 +7,34 @@
     margin-inline: auto;
 }
 
-/*-------------------------- Body BG --------------------------*/
+/*------------------------------ Body BG ------------------------------*/
 
 body {
-    background-color: #1a1d28;
-    height: auto;
+    background: #fff url("../image/merging-waves.jpg") center center / cover no-repeat;
 }
 
+/*------------------------------- Header -------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+li a {
+    color: #fff;
+}
+
+ul li {
+    float: left;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 25px;
+}
