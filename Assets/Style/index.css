@@ -1,6 +1,12 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
 /*-------------------------- Container Rules --------------------------*/
+
+.hero-container {
+    width: min(100% - 30px, 97%);
+    margin-inline: auto;
+}
 
 .container {
     width: min(100% - 30px, 1080px);
@@ -23,9 +29,23 @@
 
 body {
     background: #fff url("../image/merging-waves.jpg") center center / cover no-repeat;
+    font-family: "Quicksand";
+    width: 100%;
 }
 
 /*------------------------------- Header -------------------------------*/
+
+.hero {
+    border: 1px solid #fff ;
+    margin: 30px 30px 30px;
+    height: 90vh;
+}
+
+.landing-area {
+    margin: 20px auto 45px;
+    width: 85vw;
+    height: 90vh;
+}
 
 header {
     display: flex;
@@ -35,8 +55,9 @@ header {
 
 h2 {
     color: #fff;
-    margin-top: 15px;
-    font-size: 30px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-weight: 300;
 }
 
 li a {
@@ -53,9 +74,3 @@ ul li {
 
 /*------------------------------ Hero Text ------------------------------*/
 
-.landing-area {
-    margin: 20px auto 45px;
-    width: 85vw;
-    height: 90vh;
-    border: 1px solid #fff ;
-}
