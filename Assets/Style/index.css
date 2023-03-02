@@ -82,7 +82,7 @@ body {
 }
 
 .hero-frame {
-    background: url("../image/merging-waves.jpg") center center / cover no-repeat;
+    background: url("../Image/merging-waves.jpg") center center / cover no-repeat;
     border: 1px solid #fff ;
     margin: 0 30px;
     height: 100%;
