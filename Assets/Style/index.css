@@ -1,6 +1,10 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*-------------------------- Container Rules --------------------------*/
 
 .hero-container {
@@ -87,11 +91,76 @@ ul li {
     right: 52px;
 }
 
-/*------------------------------ Hero Text ------------------------------*/
+/*--------------------------- Main Sections ---------------------------*/
 
+#about-me {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    padding: 20px 30px;
+    min-height: 300px;
+    max-width: 1000px;
+}
 
-.landing-area {
-    margin: 20px auto 45px;
-    width: 85vw;
-    height: 90vh;
+#about-me h3 {
+    font-size: 40px;
+}
+
+.about-text {
+    margin: 0;
+    width: 50%;
+}
+
+.face {
+    max-width: 200px;
+    height: auto;
+    float: right;
+}
+
+#contact-me {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    padding: 20px 30px;
+    min-height: 300px;
+    max-width: 1000px;
+}
+
+#contact-me h3 {
+    font-size: 40px;
+}
+
+#about-me p {
+    
+}
+
+/*------------------------------ Footer ------------------------------*/
+
+footer {
+    height: 70px;
+    background-color: #ffab00;
+}
+
+footer p {
+    line-height: 70px;
+    font-size: 22px;
+    color: #000;
+}
+
+footer p i {
+    padding: 10px;
+    margin-right: 20px;
+    border: 2px solid rgb(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+
+footer a {
+    color: #000;
+}
+
+footer .foot {
+    display: flex;
+    justify-content: space-between;
 }
