@@ -1,3 +1,5 @@
+/*-------------------------- Global Rules --------------------------*/
+
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
@@ -150,7 +152,19 @@ main {
     margin: 10px 0;
 }
 
-form {
+#contact-me p + p {
+    padding: 30px 30px;
+    display: flex;
+    justify-content:space-around;
+}
+
+#contact-me a {
+    color: #000;
+    font-size: 22px;
+}
+
+/* Styles for a future contact form */
+/* form {
     height: 350px;
     width: 581px;
     margin: 0 auto;
@@ -191,7 +205,7 @@ form {
 
 #send {
     width: 25%;
-}
+} */
 
 /*------------------------------ Footer ------------------------------*/
 
