@@ -69,7 +69,7 @@ li a {
     color: #fff;
 }
 
-ul li {
+nav ul li {
     float: left;
     margin-right: 20px;
     margin-top: 25px;
@@ -147,12 +147,50 @@ main {
 }
 
 #contact-me p {
-    margin-top: 10px;
+    margin: 10px 0;
+}
+
+form {
+    height: 350px;
+    width: 581px;
+    margin: 0 auto;
 }
 
 #contact-me input, textarea {
     background: rgba(0, 0, 0, 0.1);
     height: 50px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#name {
+    width: 49%;
+    margin-left: 0;
+    float: left;
+    clear: none;
+}
+
+#email {
+    width: 49%;
+    margin-left: 2%;
+    float: left;
+    clear: none;
+}
+
+#subject {
+    width: 100%;
+}
+
+#message {
+    width: 581px;
+    height: 150px;
+    resize: none;
+}
+
+#send {
+    width: 25%;
 }
 
 /*------------------------------ Footer ------------------------------*/
