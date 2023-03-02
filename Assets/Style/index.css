@@ -22,12 +22,13 @@
 
 ::-webkit-scrollbar-thumb {
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.1, #DF2407), color-stop(1, #F99204));
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /*------------------------------ Body BG ------------------------------*/
 
 body {
+    background-color: #f0f2f4;
     font-family: "Quicksand";
     width: 100%;
 }
@@ -36,11 +37,12 @@ body {
 
 .hero-img {
     height: 100vh;
-    background: url("../image/merging-waves.jpg") center center / cover no-repeat;
+    background-image: linear-gradient(0.25turn, #ffab00 38%, #00b089);
     padding: 30px 0;
 }
 
 .hero-frame {
+    background: url("../image/merging-waves.jpg") center center / cover no-repeat;
     border: 1px solid #fff ;
     margin: 0 30px;
     height: 100%;
@@ -75,6 +77,14 @@ ul li {
     margin: 20px auto 0 26px;
     width: 50%;
     color: #fff;
+}
+
+.hero-about {
+    color: #fff;
+    width: 185px;
+    position: absolute;
+    bottom: 50px;
+    right: 52px;
 }
 
 /*------------------------------ Hero Text ------------------------------*/
