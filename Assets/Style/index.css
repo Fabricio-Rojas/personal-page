@@ -5,6 +5,40 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@keyframes text-intro {
+    from {
+        transform: translateY(-300%);
+        filter: blur(10px);
+    } to {
+        transform: translateY(0%);
+        filter: none;
+    }
+}
+
+@keyframes intro-right {
+    from {
+        width: 0;
+        font-size: 0;
+        transform: translateX(200%);
+        filter: blur(10px);
+    } to {
+        transform: translateX(0%);
+        filter: none;
+    }
+}
+
+@keyframes intro-header {
+    0% {
+        visibility: hidden;
+        filter: blur(100px);
+    }
+    100% {
+        visibility: visible;
+        filter: none;
+    }
 }
 
 /*-------------------------- Container Rules --------------------------*/
@@ -65,6 +99,7 @@ h2 {
     margin-top: 5px;
     font-size: 60px;
     font-weight: 300;
+    animation: text-intro 0.75s ease-in 1 normal;
 }
 
 li a {
@@ -91,6 +126,7 @@ nav ul li {
     position: absolute;
     bottom: 50px;
     right: 52px;
+    animation: intro-right 0.75s ease-in 1 normal forwards;
 }
 
 /*--------------------------- Main Sections ---------------------------*/
@@ -112,7 +148,9 @@ main {
 }
 
 #about-me h3 {
+    visibility: hidden;
     font-size: 40px;
+    animation: intro-header 0.75s ease-in 2s 1 normal forwards;
 }
 
 .about-content {
@@ -145,7 +183,9 @@ main {
 }
 
 #contact-me h3 {
+    visibility: hidden;
     font-size: 40px;
+    animation: intro-header 1s ease-in 3s 1 normal forwards;
 }
 
 #contact-me p {
