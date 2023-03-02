@@ -97,6 +97,7 @@ main {
     padding: 0 30px;
 }
 
+
 #about-me {
     border-radius: 10px;
     background-color: #fff;
@@ -128,6 +129,7 @@ main {
     margin-right: 100px;
 }
 
+
 #contact-me {
     border-radius: 10px;
     background-color: #fff;
@@ -142,8 +144,8 @@ main {
     font-size: 40px;
 }
 
-#about-me p {
-    
+#contact-me p {
+    margin-top: 10px;
 }
 
 /*------------------------------ Footer ------------------------------*/
